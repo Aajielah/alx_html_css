@@ -2,11 +2,20 @@ body{
   display: flex;
   flex-direction: column;
 }
+header{
+  background-color: gray;
+}
+
+li{
+ color: white;
+ font-size: larger;
+}
 
 main{
   display: flex;
   flex-direction: row;
   flex: auto;
+
 }
 
 article{
