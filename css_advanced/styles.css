@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* This is the beginning of the actual styles.css file */
+
+
+header {
+    background-image: url('css_pics/Object.png'); 
+    
+    /* This ensures the image covers the whole box without repeating */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* OPTIONAL: Min-height to ensure it looks tall like the screenshot */
+    height: 150vh;
+    
+    /* Text color white for contrast */
+    color: white;
+}
+
+.header_nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.header_nav img {
+  width: 110px; /* Set a specific width */
+    height: auto; /* CRITICAL: This keeps the image from looking "ugly" or stretched */
+  margin: 30px 100px; /* Optional: Adds some space around the logo */
+}
+
+.header_nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.header_nav ul li{
+  margin: 30px 25px;
+}
+
+.header_nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+ /* header-section styling */
+
+ .header-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .school{
+  text-align: center;
+ }
+
+ .school h1{
+  font-size: 105px;
+  margin-top: 111px;
+  margin-right: 14px;
+  font-weight: bold;
+ }
+
+.school span{
+  margin: 0 15px;
+ }
+
+
+
+
+ /* .flex-arrangment{
+  display: flex;
+  flex-direction: row;
+ } */
